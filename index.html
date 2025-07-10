@@ -1,165 +1,490 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="https://media.licdn.com/dms/image/v2/D5603AQG-7Po_idFAoA/profile-displayphoto-shrink_200_200/B56ZZFBovEGQAc-/0/1744914779911?e=1756944000&v=beta&t=qsPPyt79huz3l2jEAJBPLcvRngUpCEfu4XbKR2zWUt0" alt="HG Logo" />
-            <h1>Hariharan G</h1>
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#home"><b>Home</b></a></li>
-                <li><a href="#skill"><b>Skill</b></a></li>
-                <li><a href="#services"><b>Services</b></a></li>
-                <li><a href="#knowme"><b>know me</b></a></li>
-            </ul>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
-    </header>
-    <section id="home" class="home-section">
-        <div class="intro">
-            <h2>Hey, I'm <span id="name">"Hariharan"</span>, a developer skilled in<br>
-                <span id="wrd"></span>
-            </h2>
-                <p id="home-txt">A developer with expertise in Python, C , C++ and web technologies. I create innovative solutions and exceptional user experiences. Skilled in both front-end and back-end development, I'm always ready for new challenges.</p>        
-        </div>
-    </section>
+  <header>
+    <div class="logo">
+      <img
+        src="https://media.licdn.com/dms/image/v2/D5603AQG-7Po_idFAoA/profile-displayphoto-shrink_200_200/B56ZZFBovEGQAc-/0/1744914779911?e=1756944000&v=beta&t=qsPPyt79huz3l2jEAJBPLcvRngUpCEfu4XbKR2zWUt0"
+        alt="HG Logo"
+      />
+      <h1>Hariharan G</h1>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home"><b>Home</b></a></li>
+        <li><a href="#skills"><b>Skill</b></a></li>
+        <li><a href="#services"><b>Services</b></a></li>
+        <li><a href="#work-experience"><b>Work Experience</b></a></li>
+        <li><a href="#achievements"><b>Achievements</b></a></li>
+        <li><a href="#certificates"><b>Certificates</b></a></li>
+        <li><a href="#Aboutme"><b>About me</b></a></li>
+        <li><a href="#contact"><b>Contact Me</b></a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
 
-    <section id="skill">
-        <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;">
-        <h2>My Skills</h2>
-        <div class="slider">
-            <div class="slides">
-                <img src="icons/fsd-projects.jpg" alt="#">
-                <img src="icons/py-project.jpeg" alt="#">
-                <img src="icons/java-project.png" alt="#">
-                <img src="icons/C++-project.jpg" alt="#">
-                <img src="icons/c-project.jpg" alt="#">
-                <img src="icons/pyev-projects.jpeg" alt="#">
-                <img src="icons/full stack.jpg" alt="#">
-            </div>
-            <i class="fa-duotone fa-solid fa-angles-left prev btn2"></i>
-            <i class="fa-duotone fa-solid fa-angles-right next btn2"></i>
-        </div>
-    </section>
+  <section id="home" class="home-section">
+    <div class="intro">
+      <h2>
+        Hey, I'm <span id="name">"Hariharan"</span>, a developer skilled in<br />
+        <span id="wrd"></span>
+      </h2>
+      <p id="home-txt">
+        A developer with expertise in Python, C , C++ and web technologies. I
+        create innovative solutions and exceptional user experiences. Skilled
+        in both front-end and back-end development, I'm always ready for new
+        challenges.
+      </p>
+      <div class="start-buttons">
+        <button class="btn btn-primary">
+          <a href="./assets/Resume.pdf" download style="color:white"
+            >Download Resume</a
+          >
+        </button>
+      </div>
+    </div>
+  </section>
 
-    <section id="services" class="services-section">
-        <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;">
-        <h2><b>My Services</b></h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <h3><b>Content writing</b></h3><br>
-                <p>I work as content writer for Wikipedia, Codechef VIT Chennai, Arignar anna tamil mandram and Socrates club VIT Chennai. I have writtn articles in English, Indonesian and Tamil</p>
+  <section id="skills" class="skills-section">
+    <div class="skills-content">
+      <h2>Skill <span>Set</span></h2>
+      <div class="skills-container">
+        <div class="skills-column">
+          <div class="skill">
+            <p><strong>Python</strong></p>
+            <div class="progress-bar">
+              <div class="progress" id="progress1"></div>
             </div>
-            <div class="service-card">
-                <h3><b>Web Development</b></h3><br>
-                <p>I have worked in a few web dev projects as a part of my hobby</p>
+          </div>
+          <div class="skill">
+            <p><strong>Java</strong></p>
+            <div class="progress-bar">
+              <div class="progress" id="progress2"></div>
             </div>
-            <div class="service-card">
-                <h3><b>Game Development</b></h3><br>
-                <p>I have developed VR Games for a hackathon in Burgas, Bulgaria and got 4th place </p>
+          </div>
+          <div class="skill">
+            <p><strong>C</strong></p>
+            <div class="progress-bar">
+              <div class="progress" id="progress3"></div>
             </div>
-            <div class="service-card">
-                <h3><b>SEO Optimization</b></h3><br>
-                <p>I have performed SEO Optimization for the wiki page on Mahatma Gandhi and have made it the second most read wikipage in Tamil Wikipedia</p>
+          </div>
+          <div class="skill">
+            <p><strong>C++</strong></p>
+            <div class="progress-bar">
+              <div class="progress" id="progress4"></div>
             </div>
+          </div>
         </div>
-    </section>
-    <section id="knowme" class="knowme-section">
-        <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;">
-        <h2><b>Know me</b></h2>
-        <div class="knowme-grid">
-            <div class="know-card">
-                <h3><b>My State and City </b></h3><br>
-                <p>I hail from Chennai, Tamil Nadu . Known as the detroit of South Asia, Chennai is my home.</p>
+        <div class="skills-column">
+          <div class="skill">
+            <p><strong>MySQL</strong></p>
+            <div class="progress-bar">
+              <div class="progress" id="progress5"></div>
             </div>
-            <div class = "know-card">
-                <strong>Areas of interests</strong>
-                <ul>
-                    <li>Coding</li>
-                    <li>Gaming</li>
-                    <li>Game development</li>
-                    <li>Data analytics</li>
-                    <li>Statistics</li>
-                    <li>Game dev</li>
-                    <li>Machine learning</li>
-                    <li>Data science</li>
-                    <li>Artificial intelligence</li>
-                    <li>Web development</li>
-                </ul>
+          </div>
+          <div class="skill">
+            <p><strong>HTML</strong></p>
+            <div class="progress-bar">
+              <div class="progress" id="progress6"></div>
             </div>
-            <div class = "know-card">
-                <strong>Areas of interests</strong>
-                <ul>
-                    <li>English</li>
-                    <li>Tamil</li>
-                    <li>Hindi</li>
-                    <li>Sanskrit</li>
-                    <li>French</li>
-                    <li>Indonesian</li>
-                    <li>Malay</li>
-                    <li>Japanese</li>
-                    <li>Malayalam</li>
-            <div class="know-card">
-                <strong>Co-Curricular Activities:</strong>
-                <ul>
-                    <li>President - TedX VIT Chennai</li>
-                    <li>Member of SGAC - Asia Pacific</li>
-                    <li>Author at Wikipedia</li>
-                    <li>Open source contributor at Internet Archives </li>
-                </ul>
-            </div>    
-            <div class="know-card">
-                <h3><b>My Education </b></h3><br>
-                <p>I am pursuing my education in Vellore Institute of Technology. My academic journey has been kindling my passion for coding and innovation.</p>
+          </div>
+          <div class="skill">
+            <p><strong>CSS</strong></p>
+            <div class="progress-bar">
+              <div class="progress" id="progress7"></div>
             </div>
-            <div class="know-card">
-            <strong>Other Activities:</strong>
-            <ul>
-                <li>Sleeping</li>
-                <li>Playing Golf</li>
-            </ul>
+          </div>
+          <div class="skill">
+            <p><strong>JavaScript</strong></p>
+            <div class="progress-bar">
+              <div class="progress" id="progress8"></div>
             </div>
-            <div class="know-card">
-                <h3><b>My Dream ?</b></h3><br>
-                <p>My dream is to revolutionize the tech industry by leveraging artificial intelligence, space exploration and cutting-edge technologies. I aspire to create impactful solutions in the world.</p>
-            </div>
+          </div>
         </div>
-    </section>
-    <footer class="footer">
-        <h3><b>
-            © <span id="currentYear"></span> 
-        </b></h3>
-        <div class="social-media">
-            <a href="https://www.linkedin.com/in/hariharan-ganesh-001theone/" target="_blank" class="social-icon">
-                <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;" />
+    <h2><b>My Services</b></h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3><b>Content writing</b></h3><br />
+        <p>
+          I work as content writer for Wikipedia, Codechef VIT Chennai, Arignar
+          anna tamil mandram and Socrates club VIT Chennai. I have writtn
+          articles in English, Indonesian and Tamil
+        </p>
+      </div>
+      <div class="service-card">
+        <h3><b>Web Development</b></h3><br />
+        <p>I have worked in a few web dev projects as a part of my hobby</p>
+      </div>
+      <div class="service-card">
+        <h3><b>Game Development</b></h3><br />
+        <p>
+          I have developed VR Games for a hackathon in Burgas, Bulgaria and got
+          4th place
+        </p>
+      </div>
+      <div class="service-card">
+        <h3><b>SEO Optimization</b></h3><br />
+        <p>
+          I have performed SEO Optimization for the wiki page on Mahatma Gandhi
+          and have made it the second most read wikipage in Tamil Wikipedia
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="work-experience" class="work experience-section">
+    <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;" />
+    <h2><b>Work Experience</b></h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3><b>Internship - AVOCarbon</b></h3><br />
+        <p>
+          I had the privilege of designing and implementing custom 3D escapements
+          to precisely space out carbon brushes, significantly improving
+          production efficiency.<br /><br />
+          Additionally, I utilized computer vision and deep learning techniques
+          to automate the fault detection process for carbon brushes, setting a
+          new benchmark for quality control.<br /><br />
+          This experience has greatly expanded my technical expertise and
+          leadership abilities, while deepening my passion for integrating
+          robotics, AI, ML, and automation to drive innovation in industrial
+          settings.<br /><br />
+          I am deeply grateful to the talented team at AVOCarbon for their
+          guidance and support throughout this journey.<br /><br />
+          I look forward to exploring more opportunities to innovate and
+          contribute to the fields of software engineering, computer vision, and
+          industrial automation.
+        </p>
+      </div>
+      <div class="service-card">
+        <h3><b>Open source Developer at Internet Archives</b></h3><br />
+        <p>I have worked in translating the threads of i18n in FOLIO.</p>
+        <div class="projects-card-box_buttons">
+          <button class="btn btn-primary">
+            <a
+              href="https://www.linkedin.com/in/hariharan-ganesh-001theone/details/experience/2505157812/multiple-media-viewer/?profileId=ACoAAEZfjIEB1ZgkMtjxcdKLDaU06cjyybaJb7U&treasuryMediaId=1733222089612&type=DOCUMENT"
+              target="_blank"
+            >
+              View <i class="fa-solid fa-external-link"></i>
             </a>
-            <a href="https://instagram.com/Hariharan_2k06" target="_blank" class="social-icon">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://telegram.me/HariG" target="_blank" class="social-icon">
-                <i class="fa-brands fa-telegram"></i>
-            </a>
-            <a href="https://github.com/Hariharan120606" target="_blank" class="social-icon">
-                <i class="fa-brands fa-github"></i>
-            </a>
+          </button>
         </div>
-        
-    </footer>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="script.js"></script>
+      </div>
+      <div class="service-card">
+        <h3><b>Author - Wikipedia</b></h3><br />
+        <p>
+          I've been driven by a passion to preserve and expand access to
+          knowledge in Bahasa Indonesia and Tamil by contributing localized,
+          high-quality articles in them. I wish to provide the world with
+          error-free data that is free to access, thereby adhering to the Right
+          to Education.
+        </p>
+        <div class="projects-card-box_buttons">
+          <button class="btn btn-primary">
+            <a
+              href="https://id.wikipedia.org/wiki/Istimewa:Kontribusi_pengguna/Hariharan1001"
+              target="_blank"
+            >
+              View <i class="fa-solid fa-external-link"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificates" class="certificates-section">
+    <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;" />
+    <h2><b>Certificates</b></h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3><b>ScyllaDB 101</b></h3><br />
+        <p>
+          Completed a comprehensive course on ScyllaDB, mastering the
+          fundamentals and advanced concepts in database systems.
+        </p>
+        <div class="projects-card-box_buttons">
+          <button class="btn btn-primary">
+            <a
+              href="https://university.scylladb.com/your-certificate/12D18010D-1277DFB4C-1277DD509/"
+              target="_blank"
+            >
+              View Certificate
+            </a>
+          </button>
+        </div>
+      </div>
+      <div class="service-card">
+        <h3><b>Big Data 101</b></h3><br />
+        <p>Completed a course on web big data analytics.</p>
+        <div class="projects-card-box_buttons">
+          <button class="btn btn-primary">
+            <a
+              href="https://courses.cognitiveclass.ai/certificates/0507c959a20141948d68d187b0d0937d"
+              target="_blank"
+            >
+              View Certificate
+            </a>
+          </button>
+        </div>
+      </div>
+      <div class="service-card">
+        <h3><b>Machine Learning</b></h3><br />
+        <p>
+          Completed a course on machine learning, covering algorithms, data
+          preprocessing, and model evaluation.
+        </p>
+        <div class="projects-card-box_buttons">
+          <button class="btn btn-primary">
+            <a
+              href="https://www.linkedin.com/in/hariharan-ganesh-001theone/details/certifications/1719942981146/single-media-viewer?type=IMAGE&profileId=ACoAAEZfjIEB1ZgkMtjxcdKLDaU06cjyybaJb7U&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BHZq0nCMTRliLA6USep5scQ%3D%3D"
+              target="_blank"
+            >
+              View Certificate
+            </a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements" class="achievements-section">
+    <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;" />
+    <h2><b>Achievements</b></h2>
+    <div class="achievements-grid">
+      <div class="achievement-card">
+        <h3><b>Hackathon Winner</b></h3><br />
+        <p>
+          Won the 4th place in a hackathon in Burgas, Bulgaria for developing a
+          VR game.
+        </p>
+      </div>
+      <div class="achievement-card">
+        <h3><b>Open Source Contributor</b></h3><br />
+        <p>
+          Contributed to various open source projects, enhancing my skills and
+          giving back to the community.
+        </p>
+      </div>
+      <div class="achievement-card">
+        <h3><b>Wikipedia Author</b></h3><br />
+        <p>
+          Contributed articles in English, Indonesian and Tamil on Wikipedia,
+          promoting knowledge sharing.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="Aboutme" class="knowme-section">
+    <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;" />
+    <h2><b>About me</b></h2>
+    <div class="knowme-grid">
+      <div class="know-card">
+        <h3><b>My State and City </b></h3><br />
+        <p>
+          I hail from Chennai, Tamil Nadu . Known as the detroit of South Asia,
+          Chennai is my home.
+        </p>
+      </div>
+      <div class="know-card">
+        <strong>Areas of interests</strong>
+        <ul>
+          <li>Coding</li>
+          <li>Gaming</li>
+          <li>Game development</li>
+          <li>Data analytics</li>
+          <li>Statistics</li>
+          <li>Game dev</li>
+          <li>Machine learning</li>
+          <li>Data science</li>
+          <li>Artificial intelligence</li>
+          <li>Web development</li>
+        </ul>
+      </div>
+      <div class="know-card">
+        <strong>My languages</strong>
+        <ul>
+          <li>English</li>
+          <li>Tamil</li>
+          <li>Hindi</li>
+          <li>Sanskrit</li>
+          <li>French</li>
+          <li>Indonesian</li>
+          <li>Malay</li>
+          <li>Japanese</li>
+          <li>Malayalam</li>
+        </ul>
+      </div>
+      <div class="know-card">
+        <strong>Co-Curricular Activities:</strong>
+        <ul>
+          <li>President - TedX VIT Chennai</li>
+          <li>Member of SGAC - Asia Pacific</li>
+          <li>Author at Wikipedia</li>
+          <li>Open source contributor at Internet Archives </li>
+        </ul>
+      </div>
+      <div class="know-card">
+        <h3><b>My Education </b></h3><br />
+        <p>
+          I am pursuing my education in Vellore Institute of Technology. My
+          academic journey has been kindling my passion for coding and
+          innovation.
+        </p>
+      </div>
+      <div class="know-card">
+        <strong>Other Activities:</strong>
+        <ul>
+          <li>Sleeping</li>
+          <li>Playing Golf</li>
+        </ul>
+      </div>
+      <div class="know-card">
+        <h3><b>My Dream ?</b></h3><br />
+        <p>
+          My dream is to revolutionize the tech industry by leveraging
+          artificial intelligence, space exploration and cutting-edge
+          technologies. I aspire to create impactful solutions in the world.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;" />
+    <div class="container">
+      <h2><b>Get In Touch</b></h2>
+      <p class="contact-subtitle">
+        Have a project in mind? Let's collaborate and bring your ideas to life!
+      </p>
+      <form
+        id="contactForm"
+        action="https://blogs.mtdv.me/blog/posts/thank-you-for0-sb"
+        method="POST"
+      >
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nameInput"><i class="fas fa-user"></i> Name</label>
+            <input
+              type="text"
+              id="nameInput"
+              name="name"
+              required
+              placeholder="Your Full Name"
+            />
+          </div>
+          <div class="form-group">
+            <label for="emailInput"><i class="fas fa-envelope"></i> Email</label>
+            <input
+              type="email"
+              id="emailInput"
+              name="email"
+              required
+              placeholder="your.email@example.com"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subjectInput"><i class="fas fa-tag"></i> Subject</label>
+          <input
+            type="text"
+            id="subjectInput"
+            name="subject"
+            required
+            placeholder="What's this about?"
+          />
+        </div>
+        <div class="form-group">
+          <label for="messageInput"><i class="fas fa-comment"></i> Message</label>
+          <textarea
+            id="messageInput"
+            name="message"
+            rows="6"
+            required
+            placeholder="Tell me about your project, ideas or just say hello!"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn-primary">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Chennai, Tamil Nadu, India</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-clock"></i>
+          <span>Available for freelance work</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h3><b>© <span id="currentYear"></span></b></h3>
+    <div class="social-media">
+      <a
+        href="https://www.linkedin.com/in/hariharan-ganesh-001theone/"
+        target="_blank"
+        class="social-icon"
+      >
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a
+        href="https://instagram.com/Hariharan_2k06"
+        target="_blank"
+        class="social-icon"
+      >
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a
+        href="https://id.wikipedia.org/wiki/Istimewa:Kontribusi_pengguna/Hariharan1001"
+        target="_blank"
+        class="social-icon"
+      >
+        <i class="fa-brands fa-telegram"></i>
+      </a>
+      <a
+        href="https://github.com/Hariharan120606"
+        target="_blank"
+        class="social-icon"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
